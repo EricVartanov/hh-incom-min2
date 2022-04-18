@@ -1,0 +1,115 @@
+
+
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .idc-house {
+        width: 150px;
+        top: 95px;
+    }
+    .idc-footer-hands {
+        width: 170px;
+    }
+    .idc-ps {
+        font-size: 10px;
+        line-height: 11px;
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head**** */
+    .idc-head .idc-container {
+        padding-top: 120px;
+        padding-bottom: 200px;
+    }
+    .idc-logo,
+    .idc-head-hands {
+        width: 132px;
+    }
+    .idc-head-hands {
+        left: 160px;
+    }
+    .idc-head .idc-text {
+        font-size: 14px;
+        line-height: 17px;
+        max-width: 250px;
+        margin-top: 15px;
+    }
+    .idc-house {
+        top: unset;
+        bottom: 25px;
+        width: 130px;
+    }
+
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .idc-info p > strong {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 12px;
+        padding-left: 15px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 60px;
+    }
+    .idc-info ul li::before {
+        top: 8px;
+        width: 5px;
+        height: 5px;
+    }
+    /* *****pluses*** */
+    .idc-pluses .idc-container {
+        padding-bottom: 50px;
+    }
+    /* ***********************footer****************** */
+    .idc-footer .idc-container {
+        padding-bottom: 30px;
+    }
+    .idc-mobile-trees {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 180px;
+        width: 225px;
+    }
+    .idc-trees {
+        display: none;
+    }
+    .idc-footer-hands {
+        display: none;
+    }
+    .idc-mobile-hands {
+        position: absolute;
+        right: 0;
+        bottom: 50px;
+        width: 90px;
+        display: block;
+    }
+    .idc-footer .idc-text {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 290px;
+    }
+    .idc-ps {
+        font-size: 8px;
+        line-height: 9px;
+        margin-top: 230px;
+    }
+    
+}
